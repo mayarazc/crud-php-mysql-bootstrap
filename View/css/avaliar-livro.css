@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+body{  
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header .navbar-brand{
+    color: #05386B;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header ul li .nav-link{
+    color: #000;
+}
+
+header ul li .nav-link:hover{
+    color: #05386B;
+}
+
+header{
+    background-color: #c6bbb2;
+    padding: 0 7rem;
+}
+
+input[type="search"]{
+    width: 22rem; 
+}
+
+header ul li .nav-link{
+    font-size: 1.1rem;
+}
+
+header .nav{
+    margin-right: 4rem;
+}
+
+div .entrar{
+    background-color: #05386B;
+    color: #fff;
+}
+
+.entrar:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.fa-gear{
+    font-size: 1.4rem;
+    color: #05386B;
+    background-color: none;
+    padding-top: 3px;
+}
+
+main .btn{
+    background-color: #05386B;
+    color: #fff;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+main .formulario{
+    width: 500px;
+    margin: 5rem auto;
+}
+
+main button{
+    width: 100px;
+}
+
+.avalie{
+    padding-right: 10px;
+}
+
+footer p{
+    font-size: 0.9rem;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.estrelas label i:before{
+    color: #FC0;
+    font-size: 18px;
+}
+
+.estrelas input[type=radio]:checked ~ label i:before{
+    color: #CCCC;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+body{  
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header .navbar-brand{
+    color: #05386B;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header ul li .nav-link{
+    color: #000;
+}
+
+header ul li .nav-link:hover{
+    color: #05386B;
+}
+
+header{
+    background-color: #c6bbb2;
+    padding: 0 7rem;
+    z-index: 100;
+    top: 0;
+    position: sticky;
+}
+
+input[type="search"]{
+    width: 22rem; 
+}
+
+header ul li .nav-link{
+    font-size: 1.1rem;
+}
+
+header .nav{
+    margin-right: 4rem;
+}
+
+div .entrar{
+    background-color: #05386B;
+    color: #fff;
+}
+
+.entrar:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.fa-gear{
+    font-size: 1.4rem;
+    color: #05386B;
+    background-color: none;
+    padding-top: 3px;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+main .btn{
+    background-color: #05386B;
+    color: #fff;
+}
+
+main .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+footer p{
+    font-size: 0.9rem;
+}
+
+.usuario{
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.dados{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.dados span{
+    font-size: 1.2rem;
+    color: #05386B;
+    padding-right: 10px;
+}
+
+.dados p{
+    font-size: 1.2rem;
+}

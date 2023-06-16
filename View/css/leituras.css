@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+body{  
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header .navbar-brand{
+    color: #05386B;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header ul li .nav-link{
+    color: #000;
+}
+
+header ul li .nav-link:hover{
+    color: #05386B;
+}
+
+.logo:hover{
+    color: #05386B;
+}
+
+header{
+    background-color: #c6bbb2;
+    padding: 0 7rem;
+}
+
+input[type="search"]{
+    width: 22rem; 
+}
+
+header ul li .nav-link{
+    font-size: 1.1rem;
+}
+
+header .nav{
+    margin-right: 4rem;
+}
+
+div .entrar{
+    background-color: #05386B;
+    color: #fff;
+}
+
+.entrar:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.fa-gear{
+    font-size: 1.4rem;
+    color: #05386B;
+    background-color: none;
+    padding-top: 3px;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+main .btn{
+    background-color: #05386B;
+    color: #fff;
+}
+
+main .btn:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main .card-img-top img{
+    height: 100px;
+}
+
+main section:first-of-type{
+    display: flex;
+}
+
+main section img{
+    padding-left: 2rem;
+    width: 400px;
+}
+
+main a{
+    margin-top: 0.8rem;
+}
+
+main .link{
+    color: #05386B;
+}
+
+.fa-pen-to-square, .fa-trash{
+    color: #000;
+    padding: 0 10px;
+}
+
+.fa-pen-to-square:hover, .fa-trash:hover{
+    color: #05386B;
+}
+
+.link-avaliar{
+    color: #000;
+}
+
+.botao{
+    color: #fff;
+    padding: 1rem;
+}
+
+.botao:hover{
+    color: #fff;
+}
+
+footer p{
+    margin: 0;
+    font-size: 0.9rem;
+}
